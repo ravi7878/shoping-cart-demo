@@ -66,7 +66,7 @@ export default class Cart extends Component {
     handleIncrement = (e) => {
 
         const name = e.target.value
-        console.log(name)
+        
         const itemIndex = this.state.Cart.findIndex(item => item.name === name)
         const itemId = this.state.Item.findIndex(item => item.name === name)
         let allItem = [...this.state.Cart]
