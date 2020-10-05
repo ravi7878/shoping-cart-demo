@@ -66,7 +66,7 @@ export default class Cart extends Component {
     handleIncrement = (e) => {
 
         const name = e.target.value
-
+        console.log(name)
         const itemIndex = this.state.Cart.findIndex(item => item.name === name)
         const itemId = this.state.Item.findIndex(item => item.name === name)
         let allItem = [...this.state.Cart]
@@ -224,8 +224,7 @@ export default class Cart extends Component {
                                             </a>
                                         </div>
                                     </div>
-
-                                    <Card.Body className="Card_body">
+                                     <Card.Body className="Card_body">
                                         <Card.Title >{data.name}</Card.Title>
                                         <Card.Text>{data.desc}</Card.Text>
                                         <Card.Text>${data.price}</Card.Text>
