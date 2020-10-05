@@ -1,0 +1,70 @@
+.container
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+.header
+{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+.cart_count
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.display_table
+{
+    
+    width: 80%;
+    margin: 10px auto 0px auto;
+}
+
+.table_cart
+{
+    width: 80%;
+    
+    padding: 10px 10px;
+    margin: 0px auto 0px auto;
+}
+.table_cart > thead
+{
+    width: 20%;
+    text-align: left;
+   font-size: 30px;
+   font-weight: bold;
+}
+.table_cart > tbody
+{
+    font-size: 25px;
+}
+
+
+.total
+{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 0px auto 0px auto;
+    text-align: right;
+}
+.div_show_checkout
+{
+    display: flex;
+    justify-content: center;
+}
+.btn_show_Checkout
+{
+   
+    cursor: pointer;
+     border: 1px solid ;
+     height: 30px;
+     width: 100px;
+}
+.btn_show_Checkout:hover
+{
+    background-color: black;
+    color: white;
+}

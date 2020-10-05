@@ -1,0 +1,149 @@
+.cart_main
+{
+    display: block;
+    height: auto;
+    width : auto;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0.8;
+}
+.count_cart
+{
+    position: relative;
+    float: right;
+}
+
+.cart
+{
+    border: 1px solid white;   
+  
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+
+.cart_table
+{
+    max-width:auto;
+    height: auto;
+    color: white;
+}
+.table
+{   
+    display: grid;
+    width: 100%;
+    height: auto;
+  
+}
+.table > tr 
+{
+    height: 60px;
+    width: 500px;
+   
+    
+}
+
+.inner_image_div
+{
+    position: relative;
+    margin-left: 20px;
+}
+.inner_image_div >img
+{
+   
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+.inner_image_div > button
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-family:monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+.counter>span
+{
+   margin: 10px;
+}
+#count , #name ,#price
+{
+   text-align: center;
+    height: 50px;
+    width: 40%;
+   
+}
+.price
+{
+    width: auto;
+    height: 50px;
+    border-top:2px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.price >p
+{
+    font-size: 25px;
+    color: white;
+    text-align: right;
+}
+.button
+{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.inc
+{
+    
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.dec
+{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.dec:hover
+{
+    background-color: black;
+    color: white;
+}
+.inc:hover
+{
+    background-color: black;
+    color: white;
+}

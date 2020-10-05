@@ -1,0 +1,78 @@
+.Title
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Cart_items
+{
+    margin-top: 10px;
+   text-align: center;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+.card
+{
+    min-width: 30%;
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+    
+ }
+ .Card_body
+ {
+     margin: 10px;
+ }
+ .Image
+ {
+     max-width: 100%;
+}
+.image_container
+{
+    position: relative;
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color:gray; */
+  /* opacity: 0.5; */
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  }
+
+  .image_container:hover .overlay {
+    height: 100%;
+  }
+  .icon {
+    color: white;
+    opacity: 1;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+ .btn_add
+ {
+     cursor: pointer;
+     border: 1px solid ;
+     height: 30px;
+     width: 100px;
+    
+ }
+ .btn_add:hover
+ {
+     background-color: black;
+     color: white;
+ }

@@ -1,0 +1,130 @@
+.cart_main
+{
+    display: block;
+    height: auto;
+    width : 400px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0.8;
+}
+.count_cart
+{
+    display: grid;
+    width: 100%;
+   
+}
+
+.cart
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+
+.cart_table
+{
+    display: grid;
+    max-width:auto;
+    height: auto;
+    color: white;
+}
+.table
+{   
+    display: grid;
+    width: 100%;
+    height: auto;
+  
+}
+.table > tr 
+{
+    height: 60px;
+    width: 500px;
+   
+    
+}
+
+.inner_image_div
+{
+    position: relative;
+}
+.inner_image_div >img
+{
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+}
+.inner_image_div > span
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    border: 1px solid;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
+.counter>span
+{
+   margin: 10px;
+}
+#count , #name ,#price
+{
+   text-align: center;
+    height: 50px;
+    width: 40%;
+   
+}
+.price
+{
+    width: auto;
+    height: 50px;
+    border-top:2px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.price >p
+{
+    font-size: 25px;
+    color: white;
+    text-align: right;
+}
+.button
+{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.inc
+{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.dec
+{
+    cursor: pointer;
+    border: none;
+}
+.dec:hover
+{
+    background-color: black;
+    color: white;
+}
+.inc:hover
+{
+    background-color: black;
+    color: white;
+}
