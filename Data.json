@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "img":"https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Apple",
+      "desc" :"This is Apple",
+      "price": "1",
+      "catagory" : "fruit"
+    },
+    {
+      "id": 2,
+      "img":"https://images.unsplash.com/photo-1579969653892-c3cc5f24535a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Orange",
+      "desc" :"This is Orange",
+      "price": "1",
+      "catagory" : "fruit"
+    },
+    
+    {
+      "id": 3,
+      "img":"https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Tshirt",
+      "desc" :"This is T-shirt",
+      "price": "5",
+      "catagory" : "Clothing"
+    },
+    {
+      "id": 4,
+      "img":"https://images.unsplash.com/flagged/photo-1564468781192-f023d514222d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Shirt",
+      "desc" :"This is Shirt",
+      "price": "5",
+      "catagory" : "Clothing"
+    }
+  ]
+}
